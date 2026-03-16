@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Area {
     public static void main(String[] args) {
 
+        //Triangulo sem POO
+
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Dimensoes do triangulo X: ");
