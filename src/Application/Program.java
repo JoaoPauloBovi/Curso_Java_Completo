@@ -10,6 +10,7 @@ public class Program {
         Scanner entrada = new Scanner(System.in);
 
         Product product = new Product();
+
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
         product.name = entrada.nextLine();
