@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="378826c2-fbd6-4eba-9681-3a62aee83712" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Application/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/ConversorDolar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Calculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/Conversor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/AcessoBanco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Curso_Java_Completo/Application/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curso_Java_Completo/Application/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Curso_Java_Completo/Entities/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curso_Java_Completo/Entities/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,7 @@
   "keyToString": {
     "Application.Area_2.executor": "Run",
     "Application.Circulo.executor": "Run",
+    "Application.ContaBancaria.executor": "Run",
     "Application.ConversorDolar.executor": "Run",
     "Application.Funcionario.executor": "Run",
     "Application.Program.executor": "Run",
@@ -60,9 +58,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConversorDolar">
-    <configuration name="Area_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application.Area_2" />
+  <component name="RunManager" selected="Application.ContaBancaria">
+    <configuration name="Circulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application.Circulo" />
       <module name="Curso_Java_Completo" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Circulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application.Circulo" />
+    <configuration name="ContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application.ContaBancaria" />
       <module name="Curso_Java_Completo" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContaBancaria" />
         <item itemvalue="Application.ConversorDolar" />
         <item itemvalue="Application.Circulo" />
         <item itemvalue="Application.Funcionario" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Area_2" />
       </list>
     </recent_temporary>
   </component>

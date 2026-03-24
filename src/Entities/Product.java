@@ -16,6 +16,7 @@ public class Product {
     public void RemoveProducts(int quantity) {
         this.quantity -= quantity;
     }
+
     public String toString() {
         return name + ", R$ " + price + ", " + quantity + " units, Total: $" + TotalValueInStrock();
     }
