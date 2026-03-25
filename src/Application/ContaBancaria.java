@@ -8,49 +8,45 @@ public class ContaBancaria {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        AcessoBanco acessoBanco = new AcessoBanco();
+        AcessoBanco acessoBanco;
 
-        System.out.println("Digite seu nome: ");
-        AcessoBanco.Name = entrada.nextLine();
+        System.out.print("Digite seu nome: ");
+        String nome = entrada.nextLine();
 
         System.out.println("Digite seu numero da conta: ");
-        AcessoBanco.numeroConta = entrada.nextInt();
+        int conta = entrada.nextInt();
 
-        System.out.println("Digite o valor do depósito: ");
-        double saldo = entrada.nextDouble();
-        acessoBanco.deposito(saldo);
-        System.out.println("Saldo atual: " + acessoBanco.saldo);
+        System.out.println("Depósito Inial (s/n)?");
+        char deposito = entrada.next().charAt(0);
+
+        if (deposito == 's') {
+            System.out.print("Valor do deposito inicial ");
+            double depositoInicial = entrada.nextDouble();
+            acessoBanco = new AcessoBanco(nome, conta, depositoInicial);
+        } else {
+            acessoBanco = new AcessoBanco(nome, conta);
+        }
+        System.out.println();
+        System.out.println("Dados da conta: ");
+        System.out.println(acessoBanco);
 
         System.out.println();
+        System.out.print("Valor do deposito: ");
+        double valorDeposito = entrada.nextDouble();
+        acessoBanco.deposito(valorDeposito);
 
-        System.out.println("Realizar depósito: ");
-        double dep = entrada.nextDouble();
-        acessoBanco.deposito(dep);
-        System.out.println("Saldo atual: " + acessoBanco.saldo);
+        System.out.println("Atualizaçao dos dados da conta: ");
+        System.out.println(acessoBanco);
 
         System.out.println();
+        System.out.print("Valor do saque: ");
+        double valorSaque = entrada.nextDouble();
+        acessoBanco.saque(valorSaque);
 
-        while (dep != 0) {
-            System.out.println("Realizar depósito: ");
-            dep = entrada.nextDouble();
-            System.out.println("Saldo atual: " + acessoBanco.deposito(dep));
-            System.out.println();
-        }
-
-        System.out.println("Realizar saque: ");
-        double saque = entrada.nextDouble();
-        acessoBanco.saque(saque);
-        System.out.println("Saldo atual: " + acessoBanco.saldo);
-
-        while (saque != 0) {
-            System.out.println("Realizar saque: ");
-            saque = entrada.nextDouble();
-            System.out.println("Saldo atual: " + acessoBanco.saque(saque));
-            System.out.println();
-        }
+        System.out.println("Atualizaçao dos dados da conta: ");
+        System.out.println(acessoBanco);
 
 
         entrada.close();
-
     }
 }

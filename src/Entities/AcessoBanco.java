@@ -1,23 +1,20 @@
 package Entities;
 
 public class AcessoBanco {
-    public static String Name;
-    public static double numeroConta;
-    public double saldo;
+    private String Name;
+    private double numeroConta;
+    private double saldo;
 
-    public AcessoBanco() {
-
-    }
 
     public AcessoBanco(String Name, double numeroConta) {
         this.Name = Name;
         this.numeroConta = numeroConta;
     }
 
-    public AcessoBanco(String Name, double numeroConta, double saldo) {
+    public AcessoBanco(String Name, double numeroConta, double depositoInicial) {
         this.Name = Name;
         this.numeroConta = numeroConta;
-        this.saldo = 0.0;
+        deposito(depositoInicial);
     }
 
     public void setName(String name) {
@@ -28,20 +25,28 @@ public class AcessoBanco {
         Name = name;
     }
 
-    public double taxa(double A) {
-        A = 5.00;
-        this.saldo = saldo - A;
-        return saldo;
+    public void getNumeroConta(double numeroConta) {
+        this.numeroConta = numeroConta;
     }
 
-    public double deposito(double valor) {
+    public void getsaldo() {
+        saldo = saldo + numeroConta;
+    }
+
+    public void deposito(double valor) {
         saldo += valor;
-        return saldo;
     }
 
-    public double saque(double valor) {
-        saldo -= valor;
-        return saldo;
+    public void saque(double valor) {
+        saldo -= valor + 5.0;
     }
 
+    public String toString() {
+        return "Conta "
+                + numeroConta
+                + ", nome: "
+                + Name
+                + ", Saldo R$ "
+                + String.format("%.2f", saldo);
+    }
 }

@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="378826c2-fbd6-4eba-9681-3a62aee83712" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Application/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/AcessoBanco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso_Java_Completo/Application/ContaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curso_Java_Completo/Application/ContaBancaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Curso_Java_Completo/Entities/AcessoBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Curso_Java_Completo/Entities/AcessoBanco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/AcessoBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/AcessoBanco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Area_2.executor": "Run",
-    "Application.Circulo.executor": "Run",
-    "Application.ContaBancaria.executor": "Run",
-    "Application.ConversorDolar.executor": "Run",
-    "Application.Funcionario.executor": "Run",
-    "Application.Program.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Area_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Circulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContaBancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConversorDolar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Funcionario.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ContaBancaria">
     <configuration name="Circulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application.Circulo" />
