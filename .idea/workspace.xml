@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="378826c2-fbd6-4eba-9681-3a62aee83712" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Application/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/ProdutoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/AreaCirc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/AreaCircTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/ProdutoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/ProdutoTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +26,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Application/Produto.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -45,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AreaCircTest.executor": "Run",
     "Application.Area_2.executor": "Run",
     "Application.Circulo.executor": "Run",
     "Application.ContaBancaria.executor": "Run",
@@ -70,13 +76,13 @@
     "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProdutoTeste">
-    <configuration name="Circulo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application.Circulo" />
+  <component name="RunManager" selected="Application.AreaCircTest">
+    <configuration name="AreaCircTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application.AreaCircTest" />
       <module name="Curso_Java_Completo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Entities.*" />
+          <option name="PATTERN" value="Application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AreaCircTest" />
         <item itemvalue="Application.ProdutoTeste" />
         <item itemvalue="Application.GetSet_Pessoa" />
         <item itemvalue="Application.ContaBancaria" />
         <item itemvalue="Application.ConversorDolar" />
-        <item itemvalue="Application.Circulo" />
       </list>
     </recent_temporary>
   </component>
