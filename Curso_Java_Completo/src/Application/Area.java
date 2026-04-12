@@ -5,24 +5,26 @@ import java.util.Scanner;
 public class Area {
     public static void main(String[] args) {
 
-        //Exemplo de Código sem OOP
+        //Triangulo sem POO
 
         Scanner entrada = new Scanner(System.in);
 
-        double xA, xB, xC, yA, yB, yC;
         System.out.println("Dimensoes do triangulo X: ");
-        xA = entrada.nextDouble();
-        xB = entrada.nextDouble();
-        xC = entrada.nextDouble();
-        System.out.println("Dimensoes do triangulo Y: ");
-        yA = entrada.nextDouble();
-        yB = entrada.nextDouble();
-        yC = entrada.nextDouble();
+        double xA = entrada.nextDouble();
+        double xB = entrada.nextDouble();
+        double xC = entrada.nextDouble();
 
-        double P = (xA + xB + xC) / 2.0;
+        System.out.println("Dimensoes do triangulo Y: ");
+        double yA = entrada.nextDouble();
+        double yB = entrada.nextDouble();
+        double yC = entrada.nextDouble();
+
+        double P = (xA + xB + xC) / (double) 2.0F;
+
         double areaX = Math.sqrt(P * (P - xA) * (P - xB) * (P - xC));
 
-        P = (yA + yB + yC) / 2.0;
+        P = (yA + yB + yC) / (double) 2.0F;
+
         double areaY = Math.sqrt(P * (P - xA) * (P - xB) * (P - xC));
 
         System.out.printf("Area do triangulo X: %.2f%n ", areaX);
@@ -30,8 +32,10 @@ public class Area {
 
         if (areaX > areaY) {
             System.out.println("Maior Área X");
+
         } else {
             System.out.println("Maior Área Y");
+
         }
 
         entrada.close();
